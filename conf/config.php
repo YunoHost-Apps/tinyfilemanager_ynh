@@ -20,21 +20,19 @@ $use_auth = true;
 // Users: array('Username' => 'Password', 'Username2' => 'Password2', ...)
 // Generate secure password hash - https://tinyfilemanager.github.io/docs/pwd.html
 $auth_users = array(
-    'yunoadmin' => password_hash('password_here', PASSWORD_DEFAULT), // change yunoadmin and password_here
+    '__ADMIN__' => password_hash('__PASSWORD__', PASSWORD_DEFAULT), // change yunoadmin and password_here
 );
 
 // Readonly users
 // e.g. array('users', 'guest', ...)
-$readonly_users = array(
-    'user'
-);
+$readonly_users = array();
 
 // Enable highlight.js (https://highlightjs.org/) on view's page
 $use_highlightjs = true;
 
 // highlight.js style
 // for dark theme use 'ir-black'
-$highlightjs_style = 'vs';
+$highlightjs_style = 'ir-black';
 
 // Enable ace.js (https://ace.c9.io/) on view's page
 $edit_files = true;
