@@ -250,7 +250,7 @@ ynh_script_progression --message="Adding a configuration file..." --time --weigh
 ###
 ### Check the documentation of `ynh_add_config` for more info.
 
-ynh_add_config --template="conf/config.php" --destination="$final_path/config.php"
+ynh_add_config --template="../conf/config.php" --destination="$final_path/config.php"
 
 # FIXME: this should be handled by the core in the future
 # You may need to use chmod 600 instead of 400,
