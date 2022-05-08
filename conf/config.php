@@ -20,7 +20,7 @@ $use_auth = true;
 // Users: array('Username' => 'Password', 'Username2' => 'Password2', ...)
 // Generate secure password hash - https://tinyfilemanager.github.io/docs/pwd.html
 $auth_users = array(
-    '__ADMIN__' => password_hash('__PASSWORD__', PASSWORD_DEFAULT), // change yunoadmin and password_here
+    '__ADMIN__' => password_hash('__PASSWORD__'),
 );
 
 // Readonly users
@@ -39,7 +39,7 @@ $edit_files = true;
 
 // Default timezone for date() and time()
 // Doc - http://php.net/manual/en/timezones.php
-$default_timezone = '__TIMEZONE__'; // UTC
+$default_timezone = '__TIMEZONE__';
 
 // Root path for file manager
 // use absolute path of directory i.e: '/var/www/folder' or $_SERVER['DOCUMENT_ROOT'].'/folder'
