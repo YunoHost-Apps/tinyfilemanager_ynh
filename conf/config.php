@@ -39,7 +39,7 @@ $edit_files = true;
 
 // Default timezone for date() and time()
 // Doc - http://php.net/manual/en/timezones.php
-$default_timezone = 'Etc/UTC'; // UTC
+$default_timezone = '__TIMEZONE__'; // UTC
 
 // Root path for file manager
 // use absolute path of directory i.e: '/var/www/folder' or $_SERVER['DOCUMENT_ROOT'].'/folder'
@@ -94,7 +94,7 @@ $sticky_navbar = true;
 
 
 // max upload file size
-$max_upload_size_bytes = 5000;
+$max_upload_size_bytes = 10000;
 
 // Possible rules are 'OFF', 'AND' or 'OR'
 // OFF => Don't check connection IP, defaults to OFF
