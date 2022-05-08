@@ -121,18 +121,8 @@ ynh_script_progression --message="Adding a configuration file..." --weight=1
 
 ynh_add_config --template="../conf/config.php" --destination="$final_path/config.php"
 
-chmod 400 "$final_path/config.php"
+chmod 600 "$final_path/config.php"
 chown $app:$app "$final_path/config.php"
-
-#=================================================
-# GENERIC FINALIZATION
-#=================================================
-# SETUP LOGROTATE
-#=================================================
-ynh_script_progression --message="Configuring log rotation..." --weight=1
-
-# Use logrotate to manage application logfile(s)
-ynh_use_logrotate
 
 #=================================================
 # RELOAD NGINX
