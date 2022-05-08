@@ -54,10 +54,6 @@ Tinyfilemanager is highly documented on the [wiki pages](https://github.com/pras
 
 **Démo :** https://tinyfilemanager.github.io/demo/
 
-## Captures d'écran
-
-![](./doc/screenshots/example.jpg)
-
 ## Avertissements / informations importantes
 
 ## Requirements
