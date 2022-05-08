@@ -1,23 +1,18 @@
-# tinyfilemanager pour YunoHost
+# Tiny File Manager pour YunoHost
 
 [![Niveau d'intégration](https://dash.yunohost.org/integration/tinyfilemanager.svg)](https://dash.yunohost.org/appci/app/tinyfilemanager) ![](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.maintain.svg)  
-[![Installer tinyfilemanager avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=tinyfilemanager)
+[![Installer Tiny File Manager avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=tinyfilemanager)
 
 *[Read this readme in english.](./README.md)*
 *[Lire ce readme en français.](./README_fr.md)*
 
-> *Ce package vous permet d'installer tinyfilemanager rapidement et simplement sur un serveur YunoHost.
+> *Ce package vous permet d'installer Tiny File Manager rapidement et simplement sur un serveur YunoHost.
 Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
 
 ## Vue d'ensemble
 
 # Tiny File Manager
 
-[![Live demo](https://img.shields.io/badge/Live-Demo-brightgreen.svg?style=flat-square)](https://tinyfilemanager.github.io/demo/)
-[![Live demo](https://img.shields.io/badge/Help-Docs-lightgrey.svg?style=flat-square)](https://github.com/prasathmani/tinyfilemanager/wiki)
-[![GitHub Release](https://img.shields.io/github/release/prasathmani/tinyfilemanager.svg?style=flat-square)](https://github.com/prasathmani/tinyfilemanager/releases)
-[![GitHub License](https://img.shields.io/github/license/prasathmani/tinyfilemanager.svg?style=flat-square)](https://github.com/prasathmani/tinyfilemanager/blob/master/LICENSE)
-[![Paypal](https://img.shields.io/badge/Donate-Paypal-lightgrey.svg?style=flat-square)](https://www.paypal.me/prasathmani)
 
 > TinyFileManager is web based file manager and it is a simple, fast and small file manager with a single file, multi-language ready web application for storing, uploading, editing and managing files and folders online via web browser. The Application runs on PHP 5.5+, It allows the creation of multiple users and each user can have its own directory and a build-in support for managing text files with cloud9 IDE and it supports syntax highlighting for over 150+ languages and over 35+ themes.
 
@@ -77,7 +72,7 @@ To enable/disable authentication set `$use_auth` to true or false.
 
 * Site officiel de l'app : https://tinyfilemanager.github.io/
 * Documentation officielle utilisateur : https://github.com/prasathmani/tinyfilemanager
-* Documentation officielle de l'admin : https://github.com/prasathmani/tinyfilemanager
+* Documentation officielle de l'admin : https://github.com/prasathmani/tinyfilemanager/wiki
 * Dépôt de code officiel de l'app : https://github.com/prasathmani/tinyfilemanager
 * Documentation YunoHost pour cette app : https://yunohost.org/app_tinyfilemanager
 * Signaler un bug : https://github.com/YunoHost-Apps/tinyfilemanager_ynh/issues
