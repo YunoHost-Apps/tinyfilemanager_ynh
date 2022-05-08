@@ -54,8 +54,8 @@
                 "name": "password",
                 "type": "password",
                 "help": {
-                    "en": "Use the help field to add an information for the admin about this question.",
-                    "fr": "Utilisez le champ aide pour ajouter une information à l'intention de l'administrateur à propos de cette question."
+                    "en": "The password is encrypted with password_hash(). To generate new password hash go to https://tinyfilemanager.github.io/docs/pwd.html",
+                    "fr": "Le mot de passe est chiffré avec password_hash(). Pour générer un nouveau hachage de mot de passe, accédez à https://tinyfilemanager.github.io/docs/pwd.html"
                 }
             }
         ]
