@@ -1,5 +1,5 @@
 {
-    "name": "tinyfilemanager",
+    "name": "Tiny File Manager",
     "id": "tinyfilemanager",
     "packaging_format": 1,
     "description": {
@@ -64,8 +64,8 @@
                 "name": "password",
                 "type": "password",
                 "help": {
-                    "en": "Use the help field to add an information for the admin about this question.",
-                    "fr": "Utilisez le champ aide pour ajouter une information à l'intention de l'administrateur à propos de cette question."
+                    "en": "Password",
+                    "fr": "Mot de passe"
                 }
             }
         ]
