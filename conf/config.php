@@ -10,7 +10,7 @@ or
 -Put inside this file all the static configuration you want and forgot to configure "tinyfilemanager.php".
 #################################################################################################################
 */
-$lang=fr;
+
 // Auth with login/password
 // set true/false to enable/disable it
 // Is independent from IP white- and blacklisting
