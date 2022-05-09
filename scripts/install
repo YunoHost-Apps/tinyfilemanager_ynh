@@ -30,6 +30,7 @@ is_public=$YNH_APP_ARG_IS_PUBLIC
 language=$YNH_APP_ARG_LANGUAGE
 admin=$YNH_APP_ARG_ADMIN
 password=$YNH_APP_ARG_PASSWORD
+# passhash=php hash.php $password
 # phpversion=$YNH_PHP_VERSION
 
 ### If it's a multi-instance app, meaning it can be installed several times independently
