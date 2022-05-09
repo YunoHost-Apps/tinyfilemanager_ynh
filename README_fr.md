@@ -1,12 +1,12 @@
-# tinyfilemanager pour YunoHost
+# Tiny File Manager pour YunoHost
 
 [![Niveau d'intégration](https://dash.yunohost.org/integration/tinyfilemanager.svg)](https://dash.yunohost.org/appci/app/tinyfilemanager) ![](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.maintain.svg)  
-[![Installer tinyfilemanager avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=tinyfilemanager)
+[![Installer Tiny File Manager avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=tinyfilemanager)
 
 *[Read this readme in english.](./README.md)*
 *[Lire ce readme en français.](./README_fr.md)*
 
-> *Ce package vous permet d'installer tinyfilemanager rapidement et simplement sur un serveur YunoHost.
+> *Ce package vous permet d'installer Tiny File Manager rapidement et simplement sur un serveur YunoHost.
 Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
 
 ## Vue d'ensemble
