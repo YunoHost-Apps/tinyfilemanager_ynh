@@ -209,7 +209,7 @@ phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
 #=================================================
 # CREATE DATA DIRECTORY
 #=================================================
-# ynh_script_progression --message="Creating a data directory..." --time --weight=1
+ynh_script_progression --message="Creating a data directory..." --time --weight=1
 
 ### Use these lines if you need to create a directory to store "persistent files" for the application.
 ### Usually this directory is used to store uploaded files or any file that won't be updated during 
@@ -219,10 +219,10 @@ phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
 ###		- Remove the section "RESTORE THE DATA DIRECTORY" in the restore script
 ###     - As well as the section "REMOVE DATA DIR" in the remove script
 
-# datadir=/home/yunohost.app/$app
-# ynh_app_setting_set --app=$app --key=datadir --value=$datadir
+datadir=/home/yunohost.app/$app
+ynh_app_setting_set --app=$app --key=datadir --value=$datadir
 
-# mkdir -p $datadir
+mkdir -p $datadir
 
 # FIXME: this should be managed by the core in the future
 # Here, as a packager, you may have to tweak the ownerhsip/permissions
@@ -230,9 +230,9 @@ phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
 # files in some cases.
 # But FOR THE LOVE OF GOD, do not allow r/x for "others" on the entire folder -
 # this will be treated as a security issue.
-# chmod 750 "$datadir"
-# chmod -R o-rwx "$datadir"
-# chown -R $app:www-data "$datadir"
+chmod 750 "$datadir"
+chmod -R o-rwx "$datadir"
+chown -R $app:www-data "$datadir"
 
 #=================================================
 # ADD A CONFIGURATION
