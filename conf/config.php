@@ -112,9 +112,9 @@ $ip_whitelist = array(
 );
 
 // IP-addresses, both ipv4 and ipv6
-$ip_blacklist = array(
-    '0.0.0.0',      // non-routable meta ipv4
-    '::'            // non-routable meta ipv6
-);
+// $ip_blacklist = array(
+//    '0.0.0.0',      // non-routable meta ipv4
+//    '::'            // non-routable meta ipv6
+// );
 
 ?>
