@@ -261,10 +261,6 @@ ynh_add_config --template="../conf/config.php" --destination="$final_path/config
 chmod 600 "$final_path/config.php"
 chown $app:$app "$final_path/config.php"
 
-ynh_replace_string --match_string='$CONFIG = '{"lang":"en","error_reporting":false,"show_hidden":false,"hide_Cols":false,"calc_folder":false,"theme":"light"}';'
- --replace_string='$CONFIG = '{"lang":"$language","error_reporting":false,"show_hidden":true,"hide_Cols":false,"calc_folder":false,"theme":"light"}';'
- --target_file="$final_path/index.php"
-
 ### For more complex cases where you want to replace stuff using regexes,
 ### you shoud rely on ynh_replace_string (which is basically a wrapper for sed)
 ### When doing so, you also need to manually call ynh_store_file_checksum
