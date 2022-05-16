@@ -81,7 +81,7 @@ To enable/disable authentication set `$use_auth` to true or false.
 
 * Official app website: https://tinyfilemanager.github.io/
 * Official user documentation: https://github.com/prasathmani/tinyfilemanager
-* Official admin documentation: https://github.com/prasathmani/tinyfilemanager
+* Official admin documentation: https://github.com/prasathmani/tinyfilemanager/wiki
 * Upstream app code repository: https://github.com/prasathmani/tinyfilemanager
 * YunoHost documentation for this app: https://yunohost.org/app_tinyfilemanager
 * Report a bug: https://github.com/YunoHost-Apps/tinyfilemanager_ynh/issues
