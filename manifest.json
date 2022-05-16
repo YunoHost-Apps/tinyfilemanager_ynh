@@ -12,7 +12,7 @@
         "license": "GPL-3.0",
         "website": "https://tinyfilemanager.github.io/",
         "demo": "https://tinyfilemanager.github.io/demo/",
-        "admindoc": "https://github.com/prasathmani/tinyfilemanager",
+        "admindoc": "https://github.com/prasathmani/tinyfilemanager/wiki",
         "userdoc": "https://github.com/prasathmani/tinyfilemanager",
         "code": "https://github.com/prasathmani/tinyfilemanager"
     },
@@ -45,16 +45,6 @@
                 "name": "is_public",
                 "type": "boolean",
                 "default": true
-            },
-            {
-                "name": "language",
-                "type": "string",
-                "ask": {
-                    "en": "Choose the application language",
-                    "fr": "Choisissez la langue de l'application"
-                },
-                "choices": ["fr", "en"],
-                "default": "fr"
             },
             {
                 "name": "admin",
