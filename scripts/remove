@@ -21,7 +21,7 @@ domain=$(ynh_app_setting_get --app=$app --key=domain)
 # db_name=$(ynh_app_setting_get --app=$app --key=db_name)
 # db_user=$db_name
 final_path=$(ynh_app_setting_get --app=$app --key=final_path)
-# datadir=$(ynh_app_setting_get --app=$app --key=datadir)
+datadir=$(ynh_app_setting_get --app=$app --key=datadir)
 
 #=================================================
 # STANDARD REMOVE
@@ -47,10 +47,10 @@ final_path=$(ynh_app_setting_get --app=$app --key=final_path)
 #=================================================
 # REMOVE LOGROTATE CONFIGURATION
 #=================================================
-ynh_script_progression --message="Removing logrotate configuration..." --time --weight=1
+# ynh_script_progression --message="Removing logrotate configuration..." --time --weight=1
 
 # Remove the app-specific logrotate config
-ynh_remove_logrotate
+# ynh_remove_logrotate
 
 #=================================================
 # REMOVE THE MYSQL DATABASE
