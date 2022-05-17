@@ -40,23 +40,6 @@
                 "type": "path",
                 "example": "/tinyfilemanager",
                 "default": "/tinyfilemanager"
-            },
-            {
-                "name": "is_public",
-                "type": "boolean",
-                "default": true
-            },
-            {
-                "name": "admin",
-                "type": "user"
-            },
-            {
-                "name": "password",
-                "type": "password",
-                "help": {
-                    "en": "Password",
-                    "fr": "Mot de passe"
-                }
             }
         ]
     }
