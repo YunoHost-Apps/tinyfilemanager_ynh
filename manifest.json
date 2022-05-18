@@ -3,8 +3,8 @@
     "id": "tinyfilemanager",
     "packaging_format": 1,
     "description": {
-        "en": "Web based file manager and it is a simple, fast and small file manager with a single file, multi-language ready web application for storing, uploading, editing and managing files and folders online via web browser.",
-        "fr": "Gestionnaire de fichiers basé sur le Web et c'est un gestionnaire de fichiers simple, rapide et petit avec un seul fichier, une application Web multilingue pour stocker, télécharger, éditer et gérer des fichiers et des dossiers en ligne via un navigateur Web"
+        "en": "Web based file manager and it is a simple, fast and small file manager, multi-language ready web application for storing, uploading, editing and managing files and folders online via web browser.",
+        "fr": "C'est un gestionnaire de fichiers simple, rapide et petit, une application Web multilingue pour stocker, télécharger, éditer et gérer des fichiers et des dossiers en ligne via un navigateur Web"
     },
     "version": "2.4.7~ynh1",
     "url": "https://tinyfilemanager.github.io/",
