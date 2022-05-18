@@ -163,7 +163,7 @@ chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
 
 # rename tinyfilemanager to index
-sudo mv $final_path/tinyfilemanager.php $final_path/index.php
+mv $final_path/tinyfilemanager.php $final_path/index.php
 
 #=================================================
 # NGINX CONFIGURATION
