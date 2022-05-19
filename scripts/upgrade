@@ -20,6 +20,8 @@ final_path=$(ynh_app_setting_get --app=$app --key=final_path)
 domain=$(ynh_app_setting_get --app=$app --key=domain)
 phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
 path_url=$(ynh_app_setting_get --app=$app --key=path)
+datadir=$(ynh_app_setting_get --app=$app --key=datadir)
+
 
 #=================================================
 # CHECK VERSION
