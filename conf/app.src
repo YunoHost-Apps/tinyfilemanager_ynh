@@ -1,5 +1,5 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://github.com/prasathmani/tinyfilemanager/archive/refs/tags/2.4.7.tar.gz
+SOURCE_SUM=B160F069EDDD994443D89842EE8A52AA95A983E404398CE22016DC404DEED313
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
