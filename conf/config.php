@@ -14,14 +14,13 @@ or
 // Auth with login/password
 // set true/false to enable/disable it
 // Is independent from IP white- and blacklisting
-$use_auth = true;
+$use_auth = false;
 
 // Login user name and password
 // Users: array('Username' => 'Password', 'Username2' => 'Password2', ...)
 // Generate secure password hash - https://tinyfilemanager.github.io/docs/pwd.html
 $auth_users = array(
-    '__ADMIN__' => password_hash('__PASSWORD__', PASSWORD_DEFAULT), // change yunoadmin and password_here
-);
+    );
 
 // Readonly users
 // e.g. array('users', 'guest', ...)
