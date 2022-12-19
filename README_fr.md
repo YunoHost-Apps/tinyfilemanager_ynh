@@ -48,7 +48,7 @@ Tinyfilemanager is highly documented on the [wiki pages](https://github.com/pras
 
 
 
-**Version incluse :** 2.4.7~ynh1
+**Version incluse :** 2.5.0~ynh1
 
 **Démo :** https://tinyfilemanager.github.io/demo/
 
