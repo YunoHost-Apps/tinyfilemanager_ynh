@@ -58,11 +58,6 @@ Tinyfilemanager is highly documented on the [wiki pages](https://github.com/pras
 
 ## Disclaimers / important information
 
-## Requirements
-
-- PHP 5.5.0 or higher.
-- Fileinfo, iconv, zip, tar and mbstring extensions are strongly recommended.
-
 ## How to use
 
 :warning: Warning: password is encrypted with <code>password_hash()</code>. to generate new password hash [here](https://tinyfilemanager.github.io/docs/pwd.html)
