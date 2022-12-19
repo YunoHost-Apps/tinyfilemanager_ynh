@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 # Tiny File Manager
 
-TinyFileManager is web based file manager and it is a simple, fast and small file manager with a single file, multi-language ready web application for storing, uploading, editing and managing files and folders online via web browser. The Application runs on PHP 5.5+, It allows the creation of multiple users and each user can have its own directory and a build-in support for managing text files with cloud9 IDE and it supports syntax highlighting for over 150+ languages and over 35+ themes.
+TinyFileManager is web based file manager and it is a simple, fast and small file manager with a single file, multi-language ready web application for storing, uploading, editing and managing files and folders online via web browser. The Application allows the creation of multiple users and each user can have its own directory and a build-in support for managing text files with cloud9 IDE and it supports syntax highlighting for over 150+ languages and over 35+ themes.
 
 ## Demo
 
@@ -44,8 +44,6 @@ Tinyfilemanager is highly documented on the [wiki pages](https://github.com/pras
 - :mag_right: Search - Search and filter files using `datatable js`
 - :file_folder: Exclude folders and files from listing
 - :globe_with_meridians: Multi-language(20+) support and for translations `translation.json` is file required
-- :bangbang: lots more...
-
 
 
 **Shipped version:** 2.5.0~ynh1
