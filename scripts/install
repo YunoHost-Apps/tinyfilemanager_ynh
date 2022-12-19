@@ -83,14 +83,6 @@ chown -R $app:www-data "$final_path"
 mv $final_path/tinyfilemanager.php $final_path/index.php
 
 #=================================================
-# NGINX CONFIGURATION
-#=================================================
-ynh_script_progression --message="Configuring NGINX web server..." --weight=1
-
-# Create a dedicated NGINX config
-ynh_add_nginx_config
-
-#=================================================
 # PHP-FPM CONFIGURATION
 #=================================================
 ynh_script_progression --message="Configuring PHP-FPM..." --weight=1
@@ -98,6 +90,14 @@ ynh_script_progression --message="Configuring PHP-FPM..." --weight=1
 # Create a dedicated PHP-FPM config
 ynh_add_fpm_config 
 phpversion=$(ynh_app_setting_get --app=$app --key=phpversion)
+
+#=================================================
+# NGINX CONFIGURATION
+#=================================================
+ynh_script_progression --message="Configuring NGINX web server..." --weight=1
+
+# Create a dedicated NGINX config
+ynh_add_nginx_config
 
 #=================================================
 # CREATE DATA DIRECTORY
