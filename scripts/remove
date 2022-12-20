@@ -48,20 +48,20 @@ ynh_script_progression --message="Removing NGINX web server configuration..." --
 ynh_remove_nginx_config
 
 #=================================================
-# REMOVE DEPENDENCIES
-#=================================================
-ynh_script_progression --message="Removing dependencies..." --weight=1
-
-# Remove metapackage and its dependencies before removing php-fpm
-ynh_remove_app_dependencies
-
-#=================================================
 # REMOVE PHP-FPM CONFIGURATION
 #=================================================
 ynh_script_progression --message="Removing PHP-FPM configuration..." --weight=1
 
 # Remove the dedicated PHP-FPM config
 ynh_remove_fpm_config
+
+#=================================================
+# REMOVE DEPENDENCIES
+#=================================================
+ynh_script_progression --message="Removing dependencies..." --weight=1
+
+# Remove metapackage and its dependencies before removing php-fpm
+ynh_remove_app_dependencies
 
 #=================================================
 # GENERIC FINALIZATION
