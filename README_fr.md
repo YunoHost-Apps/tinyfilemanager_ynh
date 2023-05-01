@@ -20,18 +20,8 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 TinyFileManager is web based file manager and it is a simple, fast and small file manager with a single file, multi-language ready web application for storing, uploading, editing and managing files and folders online via web browser. The Application allows the creation of multiple users and each user can have its own directory and a build-in support for managing text files with cloud9 IDE and it supports syntax highlighting for over 150+ languages and over 35+ themes.
 
-## Demo
+### Features
 
-[Demo](https://tinyfilemanager.github.io/demo/)
-
-
-## Documentation
-
-Tinyfilemanager is highly documented on the [wiki pages](https://github.com/prasathmani/tinyfilemanager/wiki).
-
-### :loudspeaker: Features
-
-- :cd: Open Source, light and extremely simple
 - :iphone: Mobile friendly view for touch devices
 - :information_source: Basic features likes Create, Delete, Modify, View, Quick Preview, Download, Copy and Move files
 - :arrow_double_up: Ajax Upload, Ability to drag & drop, upload from URL, multiple files upload with file extensions filter
@@ -44,7 +34,7 @@ Tinyfilemanager is highly documented on the [wiki pages](https://github.com/pras
 - :zap: Backup files and IP blacklist and whitelist
 - :mag_right: Search - Search and filter files using `datatable js`
 - :file_folder: Exclude folders and files from listing
-- :globe_with_meridians: Multi-language(20+) support and for translations `translation.json` is file required
+
 
 
 **Version incluse :** 2.5.0~ynh1
@@ -54,16 +44,6 @@ Tinyfilemanager is highly documented on the [wiki pages](https://github.com/pras
 ## Captures d’écran
 
 ![Capture d’écran de Tiny File Manager](./doc/screenshots/screenshot.png)
-
-## Avertissements / informations importantes
-
-## How to use
-
-:warning: Warning: password is encrypted with <code>password_hash()</code>. to generate new password hash [here](https://tinyfilemanager.github.io/docs/pwd.html)
-
-To enable/disable authentication set `$use_auth` to true or false.
-
-:information_source: Rename the `config-sample.php` file into `config.php` to use configuration, it is an additional configuration file, Feel free to remove completely this file and configure "tinyfilemanager.php" as a single file application.
 
 ## Documentations et ressources
 

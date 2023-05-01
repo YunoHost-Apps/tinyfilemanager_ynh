@@ -1,7 +1,0 @@
-SOURCE_URL=https://github.com/prasathmani/tinyfilemanager/archive/refs/tags/2.5.0.tar.gz
-SOURCE_SUM=847a280ca8e1c31a4a39884da8f301ee77ff1885cec359a996ed3cd1430c8ffd
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=true
-SOURCE_FILENAME=
-SOURCE_EXTRACT=true
