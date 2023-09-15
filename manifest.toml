@@ -5,7 +5,7 @@ name = "Tiny File Manager"
 description.en = "Web based file manager"
 description.fr = "Gestionnaire de fichiers simple"
 
-version = "2.5.3~ynh1"
+version = "2.5.3~ynh2"
 
 maintainers = ["Jarod5001"]
 
@@ -18,7 +18,7 @@ userdoc = "https://github.com/prasathmani/tinyfilemanager"
 code = "https://github.com/prasathmani/tinyfilemanager"
 
 [integration]
-yunohost = ">= 11.1.13"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
 ldap = false
@@ -34,6 +34,10 @@ ram.runtime = "50M"
     [install.path]
     type = "path"
     default = "/tinyfilemanager"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
 
 [resources]
         [resources.sources.main]
@@ -51,4 +55,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.0-xml php8.0-cli php8.0-iconv php8.0-bz2 php8.0-zip php8.0-fileinfo php8.0-mbstring"
+    packages = "php8.0-xml, php8.0-cli, php8.0-iconv, php8.0-bz2, php8.0-zip, php8.0-fileinfo, php8.0-mbstring"
