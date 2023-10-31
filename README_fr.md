@@ -51,7 +51,7 @@ TinyFileManager is web based file manager and it is a simple, fast and small fil
 * Documentation officielle utilisateur : <https://github.com/prasathmani/tinyfilemanager>
 * Documentation officielle de l’admin : <https://github.com/prasathmani/tinyfilemanager/wiki>
 * Dépôt de code officiel de l’app : <https://github.com/prasathmani/tinyfilemanager>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_tinyfilemanager>
+* YunoHost Store: <https://apps.yunohost.org/app/tinyfilemanager>
 * Signaler un bug : <https://github.com/YunoHost-Apps/tinyfilemanager_ynh/issues>
 
 ## Informations pour les développeurs
