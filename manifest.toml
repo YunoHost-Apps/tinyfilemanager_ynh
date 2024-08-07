@@ -14,11 +14,10 @@ license = "GPL-3.0"
 website = "https://tinyfilemanager.github.io/"
 demo = "https://tinyfilemanager.github.io/demo/"
 admindoc = "https://github.com/prasathmani/tinyfilemanager/wiki"
-userdoc = "https://github.com/prasathmani/tinyfilemanager"
 code = "https://github.com/prasathmani/tinyfilemanager"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.20"
 architectures = "all"
 multi_instance = true
 ldap = false
