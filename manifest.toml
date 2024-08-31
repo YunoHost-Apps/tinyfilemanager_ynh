@@ -5,7 +5,7 @@ name = "Tiny File Manager"
 description.en = "Web based file manager"
 description.fr = "Gestionnaire de fichiers simple"
 
-version = "2.5.3~ynh2"
+version = "2.5.3~ynh3"
 
 maintainers = ["Jarod5001"]
 
