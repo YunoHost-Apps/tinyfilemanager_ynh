@@ -1,58 +1,43 @@
 #!/bin/bash
 
-#=================================================
-# GENERIC START
-#=================================================
-# IMPORT GENERIC HELPERS
-#=================================================
-
 source _common.sh
 source /usr/share/yunohost/helpers
+
+ynh_app_setting_set --key=php_upload_max_filesize --value=10G
 
 #=================================================
 # RETRIEVE ARGUMENTS FROM THE MANIFEST
 #=================================================
 
 timezone="$(cat /etc/timezone)"
-# passhash=php hash.php $password
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
-ynh_script_progression --message="Setting up source files..." --weight=1
+ynh_script_progression "Setting up source files..."
 
-# Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$install_dir"
 
-chmod -R o-rwx "$install_dir"
-chown -R $app:www-data "$install_dir"
-
-# rename tinyfilemanager to index
 mv $install_dir/tinyfilemanager.php $install_dir/index.php
 
 #=================================================
-# PHP-FPM CONFIGURATION
+# APP INITIAL CONFIGURATION
 #=================================================
-ynh_script_progression --message="Configuring PHP-FPM..." --weight=1
+ynh_script_progression "Adding $app's configuration files..."
 
-# Create a dedicated PHP-FPM config
-ynh_add_fpm_config
-
-# Create a dedicated NGINX config
-ynh_add_nginx_config
+ynh_config_add --template="config.php" --destination="$install_dir/config.php"
 
 #=================================================
-# ADD A CONFIGURATION
+# SYSTEM CONFIGURATION
 #=================================================
-ynh_script_progression --message="Adding a configuration file..." --weight=1
+ynh_script_progression "Adding system configurations related to $app..."
 
-ynh_add_config --template="../conf/config.php" --destination="$install_dir/config.php"
+ynh_config_add_phpfpm
 
-chmod 600 "$install_dir/config.php"
-chown $app:$app "$install_dir/config.php"
+ynh_config_add_nginx
 
 #=================================================
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Installation of $app completed" --last
+ynh_script_progression "Installation of $app completed"
