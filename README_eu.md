@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # Tiny File Manager YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/tinyfilemanager.svg)](https://dash.yunohost.org/appci/app/tinyfilemanager) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/tinyfilemanager.svg)](https://ci-apps.yunohost.org/ci/apps/tinyfilemanager/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.maintain.svg)
 
 [![Instalatu Tiny File Manager YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=tinyfilemanager)
 
@@ -37,7 +37,7 @@ TinyFileManager is web based file manager and it is a simple, fast and small fil
 
 
 
-**Paketatutako bertsioa:** 2.5.3~ynh2
+**Paketatutako bertsioa:** 2.5.3~ynh3
 
 **Demoa:** <https://tinyfilemanager.github.io/demo/>
 
@@ -48,7 +48,6 @@ TinyFileManager is web based file manager and it is a simple, fast and small fil
 ## Dokumentazioa eta baliabideak
 
 - Aplikazioaren webgune ofiziala: <https://tinyfilemanager.github.io/>
-- Erabiltzaileen dokumentazio ofiziala: <https://github.com/prasathmani/tinyfilemanager>
 - Administratzaileen dokumentazio ofiziala: <https://github.com/prasathmani/tinyfilemanager/wiki>
 - Jatorrizko aplikazioaren kode-gordailua: <https://github.com/prasathmani/tinyfilemanager>
 - YunoHost Denda: <https://apps.yunohost.org/app/tinyfilemanager>

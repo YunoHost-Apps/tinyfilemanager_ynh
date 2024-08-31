@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Tiny File Manager
 
-[![集成程度](https://dash.yunohost.org/integration/tinyfilemanager.svg)](https://dash.yunohost.org/appci/app/tinyfilemanager) ![工作状态](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/tinyfilemanager.svg)](https://ci-apps.yunohost.org/ci/apps/tinyfilemanager/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.maintain.svg)
 
 [![使用 YunoHost 安装 Tiny File Manager](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=tinyfilemanager)
 
@@ -37,7 +37,7 @@ TinyFileManager is web based file manager and it is a simple, fast and small fil
 
 
 
-**分发版本：** 2.5.3~ynh2
+**分发版本：** 2.5.3~ynh3
 
 **演示：** <https://tinyfilemanager.github.io/demo/>
 
@@ -48,7 +48,6 @@ TinyFileManager is web based file manager and it is a simple, fast and small fil
 ## 文档与资源
 
 - 官方应用网站： <https://tinyfilemanager.github.io/>
-- 官方用户文档： <https://github.com/prasathmani/tinyfilemanager>
 - 官方管理文档： <https://github.com/prasathmani/tinyfilemanager/wiki>
 - 上游应用代码库： <https://github.com/prasathmani/tinyfilemanager>
 - YunoHost 商店： <https://apps.yunohost.org/app/tinyfilemanager>
