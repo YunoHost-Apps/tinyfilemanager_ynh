@@ -5,7 +5,7 @@ NON debe editarse manualmente.
 
 # Tiny File Manager para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/tinyfilemanager.svg)](https://dash.yunohost.org/appci/app/tinyfilemanager) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/tinyfilemanager.svg)](https://ci-apps.yunohost.org/ci/apps/tinyfilemanager/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.maintain.svg)
 
 [![Instalar Tiny File Manager con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=tinyfilemanager)
 
@@ -48,7 +48,6 @@ TinyFileManager is web based file manager and it is a simple, fast and small fil
 ## Documentación e recursos
 
 - Web oficial da app: <https://tinyfilemanager.github.io/>
-- Documentación oficial para usuarias: <https://github.com/prasathmani/tinyfilemanager>
 - Documentación oficial para admin: <https://github.com/prasathmani/tinyfilemanager/wiki>
 - Repositorio de orixe do código: <https://github.com/prasathmani/tinyfilemanager>
 - Tenda YunoHost: <https://apps.yunohost.org/app/tinyfilemanager>
