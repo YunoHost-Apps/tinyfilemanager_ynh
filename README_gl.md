@@ -37,7 +37,7 @@ TinyFileManager is web based file manager and it is a simple, fast and small fil
 
 
 
-**Versión proporcionada:** 2.5.3~ynh3
+**Versión proporcionada:** 2.6~ynh1
 
 **Demo:** <https://tinyfilemanager.github.io/demo/>
 
