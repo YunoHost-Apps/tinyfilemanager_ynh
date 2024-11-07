@@ -5,7 +5,7 @@ name = "Tiny File Manager"
 description.en = "Web based file manager"
 description.fr = "Gestionnaire de fichiers simple"
 
-version = "2.5.3~ynh3"
+version = "2.6~ynh1"
 
 maintainers = ["Jarod5001"]
 
@@ -41,8 +41,8 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/prasathmani/tinyfilemanager/archive/refs/tags/2.5.3.tar.gz"
-        sha256 = "414f201b4ef3746ff5270f48c7fb1403f4f1fc6ba0101c7706e3a0959ee2f2e3"
+        url = "https://github.com/prasathmani/tinyfilemanager/archive/refs/tags/2.6.tar.gz"
+        sha256 = "b442566ba15034da396b554db60a874d5b591914cf31eb9fe230b6bbb465db2a"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
