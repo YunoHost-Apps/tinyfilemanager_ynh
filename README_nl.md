@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Tiny File Manager voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/tinyfilemanager.svg)](https://ci-apps.yunohost.org/ci/apps/tinyfilemanager/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/tinyfilemanager)](https://ci-apps.yunohost.org/ci/apps/tinyfilemanager/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/tinyfilemanager)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/tinyfilemanager)
 
 [![Tiny File Manager met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=tinyfilemanager)
 

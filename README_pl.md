@@ -1,22 +1,22 @@
 <!--
-NOTA: Este README foi creado automáticamente por <https://github.com/YunoHost/apps/tree/master/tools/readme_generator>
-NON debe editarse manualmente.
+To README zostało automatycznie wygenerowane przez <https://github.com/YunoHost/apps/tree/master/tools/readme_generator>
+Nie powinno być ono edytowane ręcznie.
 -->
 
-# Tiny File Manager para YunoHost
+# Tiny File Manager dla YunoHost
 
-[![Nivel de integración](https://apps.yunohost.org/badge/integration/tinyfilemanager)](https://ci-apps.yunohost.org/ci/apps/tinyfilemanager/)
-![Estado de funcionamento](https://apps.yunohost.org/badge/state/tinyfilemanager)
-![Estado de mantemento](https://apps.yunohost.org/badge/maintained/tinyfilemanager)
+[![Poziom integracji](https://apps.yunohost.org/badge/integration/tinyfilemanager)](https://ci-apps.yunohost.org/ci/apps/tinyfilemanager/)
+![Status działania](https://apps.yunohost.org/badge/state/tinyfilemanager)
+![Status utrzymania](https://apps.yunohost.org/badge/maintained/tinyfilemanager)
 
-[![Instalar Tiny File Manager con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=tinyfilemanager)
+[![Zainstaluj Tiny File Manager z YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=tinyfilemanager)
 
-*[Le este README en outros idiomas.](./ALL_README.md)*
+*[Przeczytaj plik README w innym języku.](./ALL_README.md)*
 
-> *Este paquete permíteche instalar Tiny File Manager de xeito rápido e doado nun servidor YunoHost.*  
-> *Se non usas YunoHost, le a [documentación](https://yunohost.org/install) para saber como instalalo.*
+> *Ta aplikacja pozwala na szybką i prostą instalację Tiny File Manager na serwerze YunoHost.*  
+> *Jeżeli nie masz YunoHost zapoznaj się z [poradnikiem](https://yunohost.org/install) instalacji.*
 
-## Vista xeral
+## Przegląd
 
 # Tiny File Manager
 
@@ -39,32 +39,32 @@ TinyFileManager is web based file manager and it is a simple, fast and small fil
 
 
 
-**Versión proporcionada:** 2.6~ynh1
+**Dostarczona wersja:** 2.6~ynh1
 
 **Demo:** <https://tinyfilemanager.github.io/demo/>
 
-## Capturas de pantalla
+## Zrzuty ekranu
 
-![Captura de pantalla de Tiny File Manager](./doc/screenshots/screenshot.png)
+![Zrzut ekranu z Tiny File Manager](./doc/screenshots/screenshot.png)
 
-## Documentación e recursos
+## Dokumentacja i zasoby
 
-- Web oficial da app: <https://tinyfilemanager.github.io/>
-- Documentación oficial para admin: <https://github.com/prasathmani/tinyfilemanager/wiki>
-- Repositorio de orixe do código: <https://github.com/prasathmani/tinyfilemanager>
-- Tenda YunoHost: <https://apps.yunohost.org/app/tinyfilemanager>
-- Informar dun problema: <https://github.com/YunoHost-Apps/tinyfilemanager_ynh/issues>
+- Oficjalna strona aplikacji: <https://tinyfilemanager.github.io/>
+- Oficjalna dokumentacja dla administratora: <https://github.com/prasathmani/tinyfilemanager/wiki>
+- Repozytorium z kodem źródłowym: <https://github.com/prasathmani/tinyfilemanager>
+- Sklep YunoHost: <https://apps.yunohost.org/app/tinyfilemanager>
+- Zgłaszanie błędów: <https://github.com/YunoHost-Apps/tinyfilemanager_ynh/issues>
 
-## Info de desenvolvemento
+## Informacje od twórców
 
-Envía a túa colaboración á [rama `testing`](https://github.com/YunoHost-Apps/tinyfilemanager_ynh/tree/testing).
+Wyślij swój pull request do [gałęzi `testing`](https://github.com/YunoHost-Apps/tinyfilemanager_ynh/tree/testing).
 
-Para probar a rama `testing`, procede deste xeito:
+Aby wypróbować gałąź `testing` postępuj zgodnie z instrukcjami:
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/tinyfilemanager_ynh/tree/testing --debug
-ou
+lub
 sudo yunohost app upgrade tinyfilemanager -u https://github.com/YunoHost-Apps/tinyfilemanager_ynh/tree/testing --debug
 ```
 
-**Máis info sobre o empaquetado da app:** <https://yunohost.org/packaging_apps>
+**Więcej informacji o tworzeniu paczek aplikacji:** <https://yunohost.org/packaging_apps>

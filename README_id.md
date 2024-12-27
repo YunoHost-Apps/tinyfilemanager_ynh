@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Tiny File Manager untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/tinyfilemanager.svg)](https://ci-apps.yunohost.org/ci/apps/tinyfilemanager/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/tinyfilemanager)](https://ci-apps.yunohost.org/ci/apps/tinyfilemanager/)
+![Status kerja](https://apps.yunohost.org/badge/state/tinyfilemanager)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/tinyfilemanager)
 
 [![Pasang Tiny File Manager dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=tinyfilemanager)
 

@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Tiny File Manager YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/tinyfilemanager.svg)](https://ci-apps.yunohost.org/ci/apps/tinyfilemanager/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/tinyfilemanager.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/tinyfilemanager)](https://ci-apps.yunohost.org/ci/apps/tinyfilemanager/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/tinyfilemanager)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/tinyfilemanager)
 
 [![Instalatu Tiny File Manager YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=tinyfilemanager)
 
