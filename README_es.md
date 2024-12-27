@@ -37,7 +37,7 @@ TinyFileManager is web based file manager and it is a simple, fast and small fil
 
 
 
-**Versión actual:** 2.5.3~ynh3
+**Versión actual:** 2.6~ynh1
 
 **Demo:** <https://tinyfilemanager.github.io/demo/>
 
@@ -55,7 +55,7 @@ TinyFileManager is web based file manager and it is a simple, fast and small fil
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/tinyfilemanager_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/tinyfilemanager_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
