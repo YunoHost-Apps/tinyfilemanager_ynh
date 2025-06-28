@@ -17,12 +17,14 @@ admindoc = "https://github.com/prasathmani/tinyfilemanager/wiki"
 code = "https://github.com/prasathmani/tinyfilemanager"
 
 [integration]
-yunohost = ">= 11.2.29"
+yunohost = ">= 12.0.9"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
+
 ldap = false
 sso = false
+
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
@@ -56,4 +58,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.0-xml, php8.0-cli, php8.0-iconv, php8.0-bz2, php8.0-zip, php8.0-fileinfo, php8.0-mbstring"
+    packages = "php8.4-xml, php8.4-cli, php8.4-iconv, php8.4-bz2, php8.4-zip, php8.4-fileinfo, php8.4-mbstring"
